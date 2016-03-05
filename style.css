@@ -1,0 +1,113 @@
+body {
+    background-color:white;
+}
+
+.brand-logo {
+    background-color:#29597D;
+}
+
+.nav-wrapper {
+    background-color:#29597D;
+}
+
+.post {
+    width: 35%;
+    height: 100px;
+    background-color:white;
+    color:#29597D;
+    margin-left: auto;
+    margin-right:auto;
+    border-color:#29597D;
+    border-width:5px;
+    border-style: dashed;
+    text-align:left;
+    margin-top:10%;
+    font-size:14pt;
+    resize:vertical;
+    font-family:Courier;
+}
+
+button {
+    margin-top:3%;
+}
+
+.btn {
+    background-color:#FFD171;
+}
+
+.btn:hover {
+    background-color:#EC6976;
+}
+
+.btn:visited {
+    background-color:#EC6976;
+}
+
+.btn:active{
+    background-color:#29597D;
+}
+
+
+#holder {
+    color:white;
+    font-size: 14pt;
+    height: 100px;
+    width: 35%;
+    background-color:#29597D;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1200px) {
+  .post {
+    width:50%;
+    
+  }
+  
+  #holder {
+     width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .post {
+    width:70%;
+    
+  }
+  
+  #holder {
+     width: 70%;
+  }
+}
+
+@media (max-width: 700px) {
+  .post {
+    width:90%;
+    
+  }
+  
+  #holder {
+     width: 90%;
+  }
+}
+
+#content {
+    text-align:center;
+    padding-top:15px;
+    margin-top:5%;
+    font-size:16pt;
+    color:#29597D ;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: serif;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom:5%;
+}
+
+#body {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
