@@ -2,12 +2,15 @@
 <html>
 
     <head>
+  
+  <!-- responsive A F -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Google Icons-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- Materalize.css stuffs-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
   <!-- Overridden Stylesheet -->
-  <link rel="stylesheet" href="style.css" type="text/css" /> 
+  <link rel="stylesheet" href="main.css" type="text/css" /> 
   <!-- animate.css -->
   <link rel="stylesheet" href="animate.css" type="text/css" />
   <title>notif[i]</title>
@@ -26,26 +29,39 @@
   </div>
 <!-- Navbar Ends-->
 
+
 <!-- Post Input Starts-->  
 <div class="col s1 center ">
-    <textarea class="post center" id="post" placeholder="Create post.."> </textarea> <br>
+    <textarea class="post center" id="post" placeholder="Create post.." maxlength="300"> </textarea> <br>
 <!-- Post Input Ends-->
 
+<div class="col s1 center">
+<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+<div/>
+
 <!-- Submit Button Starts-->
-    <button class="btn" id="btn" type="submit" name="action">Submit
+    <button class="btn waves-effect waves-light" id="btn" type="submit" name="action">Submit
       <i class="material-icons right">send</i>
     </button>
 </div>
 <!-- Submit Button Ends-->
 
-<!-- innerHTML stuffs-->
-<div id="content"></div>
 
-<!-- script file-->
+
+
+<!-- innerHTML stuffs-->
+<div id="content" class="slideInRight"></div>
+
+<!-- script files-->
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-
+<script type="text/javascript" src="materialize.js"></script>
+<script type="text/javascript" src="nodes_modules/autosize/src/autosize.js"></script>
 
     </body>
     

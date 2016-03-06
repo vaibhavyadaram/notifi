@@ -31,6 +31,10 @@ button {
     margin-top:3%;
 }
 
+ .waves-effect{
+      background-color: #FFD171;
+    }
+
 .btn {
     background-color:#FFD171;
 }

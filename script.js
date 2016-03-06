@@ -16,5 +16,8 @@ document.getElementById("btn").onclick = function() {
     holder.appendChild(text);
 
     document.getElementById("content").appendChild(holder);
+    
+     Materialize.toast('published!', 1000);
+    
 };
 
